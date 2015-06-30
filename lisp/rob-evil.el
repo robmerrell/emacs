@@ -14,13 +14,22 @@
 
 ;; global keybinds not in any other configs
 (evil-leader/set-key
+  ;; directories
+  "fe" 'open-config-path
+
   ;; files
   "ff" 'find-file
   "fn" 'new-empty-buffer
-  "fb" 'list-buffers
+  "fb" 'ido-switch-buffer
 
   ;; navigation
   "<SPC>" 'ace-jump-char-mode
+
+  ;; eval
+  "er" 'eval-region
+  "eb" 'eval-buffer
+  "ee" 'eval-last-sexp
+  "ef" 'eval-defun
 
   ;; magit
   "gs" 'magit-status

@@ -20,7 +20,6 @@
     company
     company-go
     elixir-mode
-    elixir-mix
     enh-ruby-mode
     evil
     evil-leader
@@ -32,7 +31,6 @@
     flx-ido
     go-mode
     go-eldoc
-    ibuffer
     ido-vertical-mode
     json-mode
     js3-mode
@@ -44,8 +42,6 @@
     projectile
     rbenv
     restclient
-    sass-mode
-    scss-mode
     smartparens
     sublimity
     undo-tree
@@ -92,6 +88,9 @@
 
 ;; show trailing whitespace
 (setq-default show-trailing-whitespace 1)
+
+;; spaces instead of tabs
+(setq-default indent-tabs-mode nil)
 
 ;; theme
 (load "~/.emacs.d/themes/ujelly-theme.el")
@@ -145,3 +144,8 @@
   (interactive)
   (let ((newbuf (generate-new-buffer-name "untitled")))
     (switch-to-buffer newbuf)))
+
+;; open the emacs config path
+(defun open-config-path ()
+  (interactive)
+  (find-file "~/.emacs.d"))
