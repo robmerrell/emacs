@@ -130,10 +130,11 @@
         rob-company
         rob-projectile
         rob-org
+        rob-elixir
         rob-ruby
         rob-modeline
         rob-magit
-        rob-spotify))
+        rob-music))
 
 (dolist (file rob-pkg-full)
   (require file))
