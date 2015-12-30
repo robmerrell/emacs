@@ -40,7 +40,6 @@
     popwin
     powerline
     projectile
-    rbenv
     restclient
     smartparens
     sublimity
@@ -131,6 +130,7 @@
         rob-projectile
         rob-org
         rob-elixir
+        rob-go
         rob-ruby
         rob-modeline
         rob-magit
