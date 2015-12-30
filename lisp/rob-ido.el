@@ -6,6 +6,8 @@
 
 (flx-ido-mode 1)
 
+(setq ido-show-dot-for-dired t)
+
 (setq ido-ignore-buffers '("^ " "*Completions*" "*Shell Command Output*"
                "*Messages*" "Async Shell Command"))
 
