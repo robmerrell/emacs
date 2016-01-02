@@ -29,6 +29,7 @@
     exec-path-from-shell
     expand-region
     flx-ido
+    flycheck
     go-mode
     go-eldoc
     ido-vertical-mode

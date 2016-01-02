@@ -10,6 +10,7 @@
 ;; hooks
 (add-hook 'go-mode-hook 'company-mode)
 (add-hook 'go-mode-hook 'go-eldoc-setup)
+(add-hook 'go-mode-hook 'flycheck-mode)
 
 ;; keybinds
 (evil-leader/set-key-for-mode 'go-mode
