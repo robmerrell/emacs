@@ -23,6 +23,7 @@
     enh-ruby-mode
     evil
     evil-leader
+    evil-magit
     evil-nerd-commenter
     evil-org
     evil-surround
