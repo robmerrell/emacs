@@ -1,9 +1,5 @@
 ;; (global-rbenv-mode)
 
-;; don't show the ruby version in the mode line. It's not that important...
-;; (setq rbenv-show-active-ruby-in-modeline nil)
-;; (setq rbenv-modeline-function 'rbenv--modeline-plain)
-
 ;; Open these files in ruby mode
 (add-to-list 'auto-mode-alist '("Gemfile" . enh-ruby-mode))
 (add-to-list 'auto-mode-alist '("Rakefile" . enh-ruby-mode))
