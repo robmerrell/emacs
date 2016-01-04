@@ -134,6 +134,7 @@
         rob-elixir
         rob-go
         rob-ruby
+        rob-rest
         rob-modeline
         rob-magit
         rob-music))
