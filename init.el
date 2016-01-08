@@ -84,6 +84,9 @@
 ;; turn off the bell
 (setq ring-bell-function 'ignore)
 
+;; font
+(set-frame-font "DejaVu Sans Mono-12")
+
 ;; show line numbers
 (global-linum-mode 1)
 
