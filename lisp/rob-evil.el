@@ -23,7 +23,7 @@
   "fb" 'ido-switch-buffer
 
   ;; navigation
-  "<SPC>" 'ace-jump-char-mode
+  "j" 'ace-jump-char-mode
 
   ;; eval
   "er" 'eval-region
