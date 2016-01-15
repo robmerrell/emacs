@@ -35,7 +35,7 @@
     go-eldoc
     ido-vertical-mode
     json-mode
-    js3-mode
+    js2-mode
     magit
     markdown-mode
     org-bullets
@@ -97,8 +97,8 @@
 (setq-default indent-tabs-mode nil)
 
 ;; theme
-(load "~/.emacs.d/themes/ujelly-theme.el")
-(load-theme 'ujelly t)
+(load "~/.emacs.d/themes/flatland-theme.el")
+(load-theme 'flatland t)
 
 ;; parens
 (show-paren-mode 1)
@@ -137,6 +137,7 @@
         rob-elixir
         rob-go
         rob-ruby
+        rob-javascript
         rob-rest
         rob-modeline
         rob-magit
