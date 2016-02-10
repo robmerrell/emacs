@@ -29,6 +29,7 @@
     evil-surround
     exec-path-from-shell
     expand-region
+    flatui-theme
     flx-ido
     flycheck
     go-mode
