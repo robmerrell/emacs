@@ -39,6 +39,7 @@
     magit
     markdown-mode
     org-bullets
+    php-mode
     popwin
     powerline
     projectile
@@ -134,10 +135,12 @@
         rob-company
         rob-projectile
         rob-org
+        rob-markdown
         rob-elixir
         rob-go
         rob-ruby
         rob-javascript
+        rob-php
         rob-rest
         rob-modeline
         rob-magit

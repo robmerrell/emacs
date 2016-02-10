@@ -8,3 +8,7 @@ go get github.com/dougm/goflymake
 
 # javascript
 npm install -g jshint
+npm install -g marked
+
+# other commands
+brew install markdown
