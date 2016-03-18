@@ -7,6 +7,10 @@
   (interactive)
   (shell-command "go test"))
 
+(defun go-run-lint ()
+  (interactive)
+  (shell-command "golint"))
+
 ;; hooks
 (add-hook 'go-mode-hook 'company-mode)
 (add-hook 'go-mode-hook 'go-eldoc-setup)
@@ -15,6 +19,7 @@
 ;; keybinds
 (evil-leader/set-key-for-mode 'go-mode
   "<SPC>t" 'go-run-tests
+  "<SPC>l" 'go-run-lint
   "<SPC>a" 'go-import-add
   "<SPC>r" 'go-remove-unused-imports
   "<SPC>h" 'godoc-at-point

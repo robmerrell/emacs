@@ -4,6 +4,8 @@
 (add-to-list 'projectile-globally-ignored-directories "internal")
 (add-to-list 'projectile-globally-ignored-directories "deps")
 (add-to-list 'projectile-globally-ignored-directories "build")
+(add-to-list 'projectile-globally-ignored-directories "Godeps")
+(add-to-list 'projectile-globally-ignored-directories "vendor")
 
 (setq projectile-enable-caching t)
 

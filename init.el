@@ -29,7 +29,7 @@
     evil-surround
     exec-path-from-shell
     expand-region
-    flatui-theme
+    ;; flatui-theme
     flx-ido
     flycheck
     go-mode
@@ -47,6 +47,7 @@
     restclient
     smartparens
     sublimity
+    toml-mode
     undo-tree
     web-mode
     window-numbering

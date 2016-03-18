@@ -46,4 +46,6 @@
 (evil-leader/set-key-for-mode 'restclient-mode
   "ms" 'restclient-http-send-current)
 
+(global-evil-surround-mode 1)
+
 (provide 'rob-evil)
