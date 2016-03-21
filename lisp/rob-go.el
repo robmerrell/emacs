@@ -5,7 +5,9 @@
 
 (defun go-run-tests ()
   (interactive)
-  (shell-command "go test"))
+  (message
+   (s-replace "\t" " "
+   (s-replace "" "" (shell-command-to-string "go test")))))
 
 (defun go-run-lint ()
   (interactive)
