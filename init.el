@@ -99,8 +99,13 @@
 (setq-default indent-tabs-mode nil)
 
 ;; theme
-(load "~/.emacs.d/themes/flatland-theme.el")
-(load-theme 'flatland t)
+(if window-system
+    (progn
+      (load "~/.emacs.d/themes/flatland-theme.el")
+      (load-theme 'flatland t))
+  (progn
+    (load "~/.emacs.d/themes/ujelly-theme.el")
+    (load-theme 'ujelly t)))
 
 ;; parens
 (show-paren-mode 1)
