@@ -1,11 +1,13 @@
 (projectile-global-mode)
 
 ;; ignores
-(add-to-list 'projectile-globally-ignored-directories "internal")
-(add-to-list 'projectile-globally-ignored-directories "deps")
-(add-to-list 'projectile-globally-ignored-directories "build")
+;; go
 (add-to-list 'projectile-globally-ignored-directories "Godeps")
 (add-to-list 'projectile-globally-ignored-directories "vendor")
+;; elixir
+(add-to-list 'projectile-globally-ignored-directories "_build")
+;; emacs
+(add-to-list 'projectile-globally-ignored-directories "elpa")
 
 (setq projectile-enable-caching t)
 
