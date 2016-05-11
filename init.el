@@ -122,9 +122,6 @@
       auto-save-default nil
       create-lockfiles nil)
 
-;; move back and forward buffers
-(global-set-key (kbd "C-S-l") 'next-buffer)
-(global-set-key (kbd "C-S-h") 'previous-buffer)
 
 ;; load sub packages
 (setq rob-pkg-full

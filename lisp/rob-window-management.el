@@ -32,4 +32,30 @@
 ;; popwin
 (setq display-buffer-function 'popwin:display-buffer)
 
+;; move back and forth between buffers
+(defun next-code-buffer ()
+  (interactive)
+  (let (( bread-crumb (buffer-name) ))
+    (next-buffer)
+    (while
+        (and
+         (string-match-p "^\*" (buffer-name))
+         (not ( equal bread-crumb (buffer-name) )) )
+      (next-buffer))))
+
+(defun previous-code-buffer ()
+  (interactive)
+  (let (( bread-crumb (buffer-name) ))
+    (previous-buffer)
+    (while
+        (and
+         (string-match-p "^\*" (buffer-name))
+         (not ( equal bread-crumb (buffer-name) )) )
+      (previous-buffer))))
+
+(global-set-key (kbd "C-S-l") 'next-buffer)
+(global-set-key (kbd "C-S-h") 'previous-buffer)
+(evil-leader/set-key "l" 'next-code-buffer)
+(evil-leader/set-key "h" 'previous-code-buffer)
+
 (provide 'rob-window-management)
