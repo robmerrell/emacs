@@ -45,7 +45,6 @@
     projectile
     restclient
     smartparens
-    sublimity
     toml-mode
     undo-tree
     web-mode
@@ -126,11 +125,6 @@
 ;; move back and forward buffers
 (global-set-key (kbd "C-S-l") 'next-buffer)
 (global-set-key (kbd "C-S-h") 'previous-buffer)
-
-;; better scrolling
-(require 'sublimity-scroll)
-(setq sublimity-scroll-drift-length 1)
-(sublimity-mode 1)
 
 ;; load sub packages
 (setq rob-pkg-full
