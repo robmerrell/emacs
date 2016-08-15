@@ -138,6 +138,7 @@
         rob-ruby
         rob-javascript
         rob-php
+        rob-webmode
         rob-rest
         rob-modeline
         rob-magit
