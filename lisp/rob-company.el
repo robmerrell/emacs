@@ -7,5 +7,8 @@
 (setq company-minimum-prefix-length 2)
 (setq company-tooltip-flip-when-above t)
 (define-key evil-insert-state-map (kbd "C-p") 'company-complete)
+(push 'company-files company-backends)
+
+(setq company-go-show-annotation t)
 
 (provide 'rob-company)
