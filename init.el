@@ -63,6 +63,8 @@
 
 ;; Add to load-path
 (add-to-list 'load-path "~/.emacs.d/lisp")
+(add-to-list 'load-path "~/.emacs.d/themes")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 
 ;; Make emacs the default editor
 (setenv "EDITOR" "emacsclient")
@@ -100,8 +102,10 @@
 ;; theme
 (if window-system
     (progn
-      (load "~/.emacs.d/themes/flatland-theme.el")
-      (load-theme 'flatland t))
+      (require 'doom)
+      (load-theme 'doom-one t))
+      ;; (load "~/.emacs.d/themes/flatland-theme.el")
+      ;; (load-theme 'flatland t))
   (progn
     (load "~/.emacs.d/themes/ujelly-theme.el")
     (load-theme 'ujelly t)))
