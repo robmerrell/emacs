@@ -104,8 +104,6 @@
     (progn
       (require 'doom)
       (load-theme 'doom-one t))
-      ;; (load "~/.emacs.d/themes/flatland-theme.el")
-      ;; (load-theme 'flatland t))
   (progn
     (load "~/.emacs.d/themes/ujelly-theme.el")
     (load-theme 'ujelly t)))

@@ -78,7 +78,7 @@
      `(doom-hl-line           ((,c (:background ,current-line))))
      `(doom-linum             ((,c (:inherit linum :background ,bg))))
      `(doom-nlinum-highlight  ((,c (:foreground ,linum-hl-fg :bold nil))))
-     `(doom-flycheck-error    ((,c (:underline nil :foreground ,black :background ,red))))
+     `(doom-flycheck-error    ((,c (:underline nil :foreground ,white :background ,red))))
      `(doom-flycheck-warning  ((,c (:underline nil :foreground ,black :background ,yellow))))
      `(doom-flycheck-info     ((,c (:underline nil :foreground ,black :background ,green))))
      ;; Base
@@ -179,7 +179,7 @@
      `(evil-snipe-first-match-face ((,c (:foreground ,search-bg :background ,blue-d))))
      `(evil-snipe-matches-face     ((,c (:foreground ,search-bg :underline t :bold ,bold))))
      ;; flycheck
-     `(flycheck-error     ((,c (:underline (:style wave :color ,red)    :background ,bg-d))))
+     `(flycheck-error     ((,c (:underline (:style wave :color ,red) :foreground ,white :background ,bg-d))))
      `(flycheck-warning   ((,c (:underline (:style wave :color ,yellow) :background ,bg-d))))
      `(flycheck-info      ((,c (:underline (:style wave :color ,green)  :background ,bg-d))))
      `(flyspell-incorrect ((,c (:underline (:style wave :color ,red) :inherit unspecified))))
