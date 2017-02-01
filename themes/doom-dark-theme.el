@@ -89,7 +89,7 @@
      `(doom-hl-line           ((,c (:background ,bg))))
      `(doom-linum             ((,c (:inherit linum :background ,bg-l))))
      `(doom-nlinum-highlight  ((,c (:foreground ,linum-hl-fg :bold nil))))
-     `(doom-flycheck-error    ((,c (:underline nil :foreground ,black :background ,red))))
+     `(doom-flycheck-error    ((,c (:underline nil :foreground ,white :background ,red))))
      `(doom-flycheck-warning  ((,c (:underline nil :foreground ,black :background ,yellow))))
      `(doom-flycheck-info     ((,c (:underline nil :foreground ,black :background ,green))))
      ;; Text

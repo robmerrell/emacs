@@ -6,6 +6,8 @@
 (add-to-list 'projectile-globally-ignored-directories "vendor")
 ;; elixir
 (add-to-list 'projectile-globally-ignored-directories "_build")
+(add-to-list 'projectile-globally-ignored-directories "deps")
+(add-to-list 'projectile-globally-ignored-directories "node_modules")
 ;; emacs
 (add-to-list 'projectile-globally-ignored-directories "elpa")
 

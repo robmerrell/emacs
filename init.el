@@ -19,6 +19,7 @@
     clojure-mode
     company
     company-go
+    dockerfile-mode
     elixir-mode
     enh-ruby-mode
     evil
@@ -33,6 +34,7 @@
     flycheck
     go-mode
     go-eldoc
+    go-guru
     ido-vertical-mode
     json-mode
     js2-mode
@@ -49,6 +51,7 @@
     undo-tree
     web-mode
     window-numbering
+    xclip
     yaml-mode)
   "A list of packages to ensure are installed at launch.")
 
@@ -102,6 +105,10 @@
 ;; theme
 (if window-system
     (progn
+      ;; (require 'flatui-theme)
+      ;; (load-theme 'flatui t))
+      ;; (require 'tomorrow-day-theme)
+      ;; (load-theme 'tomorrow-day t))
       (require 'doom)
       (load-theme 'doom-one t))
   (progn

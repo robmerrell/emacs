@@ -34,6 +34,9 @@
   ;; magit
   "gs" 'magit-status
 
+  ;; indentation
+  "ir" 'indent-region
+
   ;; comments
   "cl" 'evilnc-comment-or-uncomment-lines
   "ci" 'evilnc-quick-comment-or-uncomment-to-the-line
