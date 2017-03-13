@@ -30,7 +30,12 @@
      ((equal str "0")  "➓"))))
 
 ;; popwin
+(require 'popwin)
+(popwin-mode 1)
 (setq display-buffer-function 'popwin:display-buffer)
+(push "*alchemist test report*" popwin:special-display-config)
+(push "*alchemist mix*" popwin:special-display-config)
+(push "*alchemist help*" popwin:special-display-config)
 
 ;; move back and forth between buffers
 (defun next-code-buffer ()
