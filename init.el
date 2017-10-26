@@ -42,6 +42,7 @@
     markdown-mode
     org-bullets
     php-mode
+    ponylang-mode
     popwin
     powerline
     projectile
@@ -147,6 +148,7 @@
         rob-ruby
         rob-javascript
         rob-php
+        rob-pony
         rob-webmode
         rob-rest
         rob-modeline
