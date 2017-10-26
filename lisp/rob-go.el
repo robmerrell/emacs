@@ -1,6 +1,7 @@
 (setenv "GOPATH" "/Users/robmerrell/projects/globalgo")
 
 ;; fmt on save
+(setq gofmt-command "goimports")
 (add-hook 'before-save-hook 'gofmt-before-save)
 
 (defun go-run-tests ()
