@@ -51,6 +51,7 @@
     toml-mode
     undo-tree
     web-mode
+    which-key
     window-numbering
     xclip
     yaml-mode)
@@ -132,6 +133,8 @@
       auto-save-default nil
       create-lockfiles nil)
 
+;; which key
+(which-key-mode)
 
 ;; load sub packages
 (setq rob-pkg-full
